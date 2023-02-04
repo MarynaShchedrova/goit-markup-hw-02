@@ -1,0 +1,73 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --primary-white-color: #FFFFFF;
+    --accent-color: 
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+body {
+    background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+/*.header { 
+
+}*/
+.menu{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.7;
+}
+/*.main-nav {}*/
+
+
+.logo-text1 {
+color: #4D5AE5;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 0.75;
+
+}
+.logo-text2 {
+color: var(--primary-text-color);
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 0.75;
+}
+/*===========Hero=======*/
+.hero-titel {
+color:rgb(218, 238, 238);
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+}
+/*===========Section=======*/
+.section-titel {
+color: var(--primary-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 0.9;
+text-align: center;
+text-transform: capitalize;
+}
+.list-titel {
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 20px;
+line-height: 0.8;
+}
+.list-text {
+color: #434455;
+font-weight: 400;
+font-size: 16px;
+line-height: 0.7;
+}
+
