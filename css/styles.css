@@ -1,7 +1,12 @@
 :root {
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color-thema-dark: #ffffff;
+    --primary-text-color-thema-ligt: #2E2F42;
     --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
     --primary-white-color: #FFFFFF;
-    --accent-color: 
+    --accent-color: #4D5AE5;
 }
 .list {
     list-style: none;
@@ -11,7 +16,7 @@
 }
 body {
     background-color: var(--primary-white-color);
-    font-family: Roboto, sans-serif;
+    font-family: var(--primary-font);
     letter-spacing: 0.02em;
 }
 /*.header { 
@@ -23,12 +28,16 @@ body {
     font-size: 16px;
     line-height: 0.7;
 }
+.menu:hover,
+.menu:focus {
+    color: var(--accent-color);
+}
 /*.main-nav {}*/
 
-
+/*===============Logo===========*/
 .logo-text1 {
 color: #4D5AE5;
-font-family: 'Raleway', sans-serif;
+font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 0.75;
@@ -36,19 +45,21 @@ line-height: 0.75;
 }
 .logo-text2 {
 color: var(--primary-text-color);
-font-family: 'Raleway', sans-serif;
+font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 0.75;
 }
+/*===============/Logo===========*/
 /*===========Hero=======*/
 .hero-titel {
-color:rgb(218, 238, 238);
+color: var(--primary-text-color);
 font-weight: 700;
 font-size: 56px;
 line-height: 60px;
 text-align: center;
 }
+/*===========/Hero=======*/
 /*===========Section=======*/
 .section-titel {
 color: var(--primary-text-color);
@@ -65,9 +76,23 @@ font-size: 20px;
 line-height: 0.8;
 }
 .list-text {
-color: #434455;
+color: var (--secondary-text-color);
 font-weight: 400;
 font-size: 16px;
 line-height: 0.7;
 }
+/*===========/Section=======*/
+/*========Button========*/
+.modal.btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 0.67;
+letter-spacing: 0.04em;
+cursor: pointer;
 
+}
+.modal.btn:hover,
+.modal.btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color)
+}
