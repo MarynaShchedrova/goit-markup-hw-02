@@ -27,6 +27,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 0.7;
+    font-style: normal;
 }
 .menu:hover,
 .menu:focus {
@@ -83,16 +84,18 @@ line-height: 0.7;
 }
 /*===========/Section=======*/
 /*========Button========*/
-.modal.btn {
-font-weight: 500;
-font-size: 16px;
-line-height: 0.67;
-letter-spacing: 0.04em;
-cursor: pointer;
+/*.btn-text{
+    
+} */
+.modal-btn {
+   font-weight: 500;
+    font-size: 16px;
+    line-height: 0.67;
+    letter-spacing: 0.04em;
 
 }
-.modal.btn:hover,
-.modal.btn:focus {
+.modal-btn:hover,
+.modal-btn:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color)
 }
