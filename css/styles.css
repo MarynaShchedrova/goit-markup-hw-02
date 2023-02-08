@@ -1,101 +1,141 @@
 :root {
-    --primary-font: Roboto, sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --primary-text-color-thema-dark: #ffffff;
-    --primary-text-color-thema-ligt: #2E2F42;
-    --primary-text-color: #2E2F42;
-    --secondary-text-color: #434455;
-    --primary-white-color: #FFFFFF;
-    --accent-color: #4D5AE5;
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-text-color-thema-dark: #ffffff;
+  --primary-text-color-thema-ligt: #2e2f42;
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --primary-white-color: #ffffff;
+  --accent-color: #4d5ae5;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 body {
-    background-color: var(--primary-white-color);
-    font-family: var(--primary-font);
-    letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: var(--primary-font);
+  letter-spacing: 0.02em;
 }
 /*.header { 
 
 }*/
-.menu{
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 0.7;
-    font-style: normal;
+.menu-link {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
 }
-.menu:hover,
-.menu:focus {
-    color: var(--accent-color);
+.contacts-email,
+.contacts-tel {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+}
+.contacts-tel:hover,
+.contacts-tel:focus {
+  color: var(--accent-color);
+}
+.contacts-email:hover,
+.contacts-email:focus {
+  color: var(--accent-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
 }
 /*.main-nav {}*/
 
 /*===============Logo===========*/
 .logo-text1 {
-color: #4D5AE5;
-font-family: var(--secondary-font);
-font-weight: 800;
-font-size: 18px;
-line-height: 0.75;
-
+  color: #4d5ae5;
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
 }
 .logo-text2 {
-color: var(--primary-text-color);
-font-family: var(--secondary-font);
-font-weight: 800;
-font-size: 18px;
-line-height: 0.75;
+  color: var(--primary-text-color);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
 }
 /*===============/Logo===========*/
 /*===========Hero=======*/
-.hero-titel {
-color: var(--primary-text-color);
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-text-align: center;
+.hero-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 }
 /*===========/Hero=======*/
 /*===========Section=======*/
-.section-titel {
-color: var(--primary-text-color);
-font-weight: 700;
-font-size: 36px;
-line-height: 0.9;
-text-align: center;
-text-transform: capitalize;
+.title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
-.list-titel {
-color: var(--primary-text-color);
-font-weight: 500;
-font-size: 20px;
-line-height: 0.8;
+.list-title,
+.advance-title,
+.tem-titel,
+.card.title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
-.list-text {
-color: var (--secondary-text-color);
-font-weight: 400;
-font-size: 16px;
-line-height: 0.7;
+.list-text,
+.team-text,
+.card-text {
+  color: var (--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
 /*===========/Section=======*/
 /*========Button========*/
 /*.btn-text{
     
 } */
-.modal-btn {
-   font-weight: 500;
-    font-size: 16px;
-    line-height: 0.67;
-    letter-spacing: 0.04em;
-
+.hero-btn {
+  color: var(--primary-white-color);
+  background: #4d5ae5;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.modal-btn:hover,
-.modal-btn:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color)
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+.filter-btn {
+  color: var(--accent-color);
+  background: #e7e9fc;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: #404bbf;
+  color: var(--primary-white-color);
 }
