@@ -25,7 +25,7 @@ body {
 }*/
 .menu-link {
   color: var(--primary-text-color);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
@@ -69,8 +69,11 @@ body {
 }
 /*===============/Logo===========*/
 /*===========Hero=======*/
+.hero {
+  background-color: #2e2f42;
+}
 .hero-title {
-  color: var(--primary-text-color);
+  color: var(--primary-text-color-thema-dark);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -88,7 +91,7 @@ body {
 }
 .list-title,
 .advance-title,
-.tem-titel,
+.team-title,
 .card.title {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -98,7 +101,7 @@ body {
 .list-text,
 .team-text,
 .card-text {
-  color: var (--secondary-text-color);
+  color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -118,6 +121,8 @@ body {
   letter-spacing: 0.04em;
   border-radius: 4px;
   cursor: pointer;
+  padding: 16px 32px 16px 32px;
+  border: none;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -133,9 +138,27 @@ body {
   letter-spacing: 0.04em;
   border-radius: 4px;
   cursor: pointer;
+  border: none;
+  padding: 12px 24px 12px 24px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: #404bbf;
   color: var(--primary-white-color);
+}
+.team {
+  background-color: #f4f4fd;
+}
+/* ======Footer====== */
+.footer {
+  background-color: var(--primary-text-color);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7e9fc;
+}
+.logo-color {
+  color: #ffffff;
 }
