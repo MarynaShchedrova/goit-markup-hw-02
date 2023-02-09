@@ -26,15 +26,12 @@ body {
 .menu-link {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
-  font-style: normal;
 }
 .contacts-email,
 .contacts-tel {
   color: var(--primary-text-color);
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   font-style: normal;
 }
@@ -92,18 +89,17 @@ body {
 .list-title,
 .advance-title,
 .team-title,
-.card.title {
+.card-title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 .list-text,
+.advance-text,
 .team-text,
 .card-text {
   color: var(--secondary-text-color);
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
 }
 /*===========/Section=======*/
@@ -154,9 +150,7 @@ body {
   background-color: var(--primary-text-color);
 }
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #e7e9fc;
 }
 .logo-color {
